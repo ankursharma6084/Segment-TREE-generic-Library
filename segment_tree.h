@@ -59,6 +59,12 @@ class SegmentTree
             buildtree(data);
         }
 
+         // Destructor called
+
+        ~SegmentTree(){
+
+            delete [] TreeNode;
+        }
 
         // print tree
 
