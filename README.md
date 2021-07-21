@@ -4,13 +4,14 @@
 1. Include the segment tree file like this  #include"segment_tree.h"
 2. To define a segmennt tree use    SegmentTree<Type> seg(vector,value,compare);
   
-  eg -  For Gcd
+  eg -  For Gcd in a range
         
         a) int comp(int a,int b)
          return __gcd(a,b);
  
         SegmentTree<int> seg(a,n,0,comp);   // Here a is array and n is length and 0 is default value
   
+        For Max element in a range
   
         b) int comp(int a,int b)
            return max(a,b);
