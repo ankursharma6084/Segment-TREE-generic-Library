@@ -11,7 +11,9 @@
  
         SegmentTree<int> seg(a,n,0,comp);   // Here a is array and n is length and 0 is default value
   
-        For Max element in a range
+  
+  
+   eg -    For Max element in a range
   
         b) int comp(int a,int b)
            return max(a,b);
